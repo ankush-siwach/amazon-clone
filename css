@@ -1,0 +1,742 @@
+* {
+   margin: 0%;
+   padding: 0%;
+   font-family: Arial, Helvetica, sans-serif;
+   border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background:linear-gradient(to right, #003D32,#046D48); 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0%;
+    
+}
+a{
+  text-decoration: none;
+}
+.navlogo{
+    height:50px;
+    width:113px;
+  
+}
+.logo{
+    background-size:cover;
+    background-image: url(amazon.png);
+    height:45px;
+    width:112px;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+.border{
+    border: 1.5px solid transparent;
+    height: 80%; /* Ensures it spans the full height of the parent (navbar) */
+    
+}
+.border:hover{
+    border: 1.5px solid white;
+   
+}
+
+.nav-first{
+    color:#CCCCCC;
+    font-size: 0.9rem;
+    margin-left: 15px;
+
+}
+.nav-sec{
+   margin-left: 5px;
+   font-weight: bold;
+}
+.nav-add{
+  margin-left: 6px;
+ 
+}
+.nav-icon{
+    display: flex;
+    color:#FFFFFF;
+    font-size: 0.9rem;
+    transition: none;
+    transform: none;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    height: 40px;
+    width: 900px;
+
+}
+.search-select{
+    background-color: #E6E6E6;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    width:45px;
+    align-content: center;
+    text-align: center;
+    border: none;
+    background-color: rgb(236, 179, 72);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #030303;
+}
+/*.lan{
+    
+     background-image: url(flag.png);
+     height: 15px;
+     width: 22px;
+     margin-left: 15px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+*/
+
+.language-selector {
+    position: relative;
+    display: flex;
+    margin-left: 15px;
+
+  }
+  
+
+  .dropdown-btn {
+    background-color:#030303 ;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+   
+    color: #CCCCCC;
+    position: relative; 
+    transform: none; /* Remove any transform effect */
+    transition: none;
+  }
+  .language-dropdown{
+    width: 50px;
+    height: 46px;
+    align-content: center;
+
+  }
+  
+  
+  .flag-icon {
+    width: 20px;
+    height: 15px;
+    
+    
+  }
+  
+  .language-code {
+    font-weight: bold;
+    font-size: 13px;
+    align-items: center;
+  }
+  .fif-one{
+    font-size:0.85rem;
+    color:#FFFFFF;
+
+  }
+  .fif-sec{
+    font-weight: bold;
+  }
+  .six-one{
+    font-size:0.85rem;
+    color:#FFFFFF;
+
+  }
+  .six-sec{
+    font-weight: bold;
+  }
+  .cartm{
+    display: flex;
+    font-size:xx-large;
+    
+  }
+  .mcart{
+    font-size: 20px;
+    align-content:flex-end;
+    padding-right: 5px;
+  }
+  /* .pic{ */
+    /* background-image: url(amazonhomepic.jpg);
+    position: relative;
+  
+    max-width:none;
+    background-size:contain ;
+    align-items: center;
+    justify-content: center;
+    /* background-position: center center;         Center the image */
+  /* background-repeat: no-repeat;               /* Prevent the image from repeating */
+  /*height: 100vh;                              Ensure the body takes the full viewport height
+  margin: 0;   */
+  .pic {
+    background-image: url(amazonhome1.jpg);
+    background-size: cover; /* Ensures the image fills the section */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    position: relative; /* To position the gradient overlay */
+    margin-bottom: 0;
+
+
+  }
+  .pic::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, #e3e6e6 100%);
+    /* z-index: 1; Ensure the gradient is layered properly */
+}
+
+  .secnav{
+    padding-top: 60px;;
+  height: 39px;
+  background-color: #085749;
+  align-content: center;
+  display:flex;
+  align-items: center;
+  color: #FFFFFF;
+ /* / justify-content: space-between; */
+ position:relative;
+
+  }
+  .allm{
+    margin-left: 11px;
+      color: #FFFFFF;
+      font-size: 20px;
+      display: flex;
+      padding-left: 4px;
+      justify-content:center;
+      position:relative;
+     align-items: center;
+
+
+     
+  }
+  .all{
+    margin-left: 8px;
+    font-size: 15px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .anchor{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    margin: 5px 0px 6px;
+    padding: 8px 9px;
+    gap: 0px;
+    font:13px;
+    height: 90%;
+    align-items: center;
+    align-content: center;
+    
+  }
+ .anchor .border{
+  border: 1.5px solid transparent;
+  height: 100%;
+  margin: auto 0;
+  width: auto;
+    box-sizing: border-box; /* Ensures borders don't affect height */
+    transition: all 0.3s ease; /* Smooth transition */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Centers text vertically */
+    justify-content: center; /* Centers text horizontally */
+   /* Ensures the element has a minimum width */
+  padding: 0 7px ; /* Add padding to give some extra space around text */
+  }
+  
+ 
+/* For the 'All' menu button (80% height on hover) */
+.allm.border:hover {
+  border: 1.5px solid white;
+  height: 80%;
+}
+
+/* For other navigation items (100% height on hover) */
+.anchor .border:hover {
+  border: 1.5px solid white;
+  height: 100%;
+}
+.banner{
+  background-color: #F5F6F6;
+  height:40px;
+  align-items: center;
+  align-content: center;
+  width: 95%;
+  justify-items: center;
+  text-align: center;
+ 
+}
+.mbanner{
+  padding-top: 17%;
+  justify-items: center;
+  width: auto;
+  display: block;
+  text-align: center;
+}
+.banner a{
+  text-decoration: none;
+  color: #007185;
+}
+
+.banner a:hover{
+  color: #FF5733; 
+  text-decoration-line: underline;
+ 
+}
+
+.thirdb{
+  background-color: #FFFFFF;
+  height: 390px;
+  width: 332.5px;
+  margin: 20px 0px 0px 36.6px;
+  text-align: center;
+font-size: 21px;
+font-weight: bold;
+padding-bottom: 0%;
+align-items: center;
+justify-content: center;
+align-content: center;
+}
+.fourthb{
+  background-color: #FFFFFF;
+  height: 390px;
+  width: 332.5px;
+  margin: 20px 0px 0px 36.6px;
+  text-align: center;
+font-size: 21px;
+font-weight: bold;
+padding-bottom: 0%;
+align-items: center;
+justify-content: center;
+align-content: center;
+}
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative; 
+     z-index: 2;
+    margin: 0; /* Removes external margins */
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 0; /* Prevents bottom padding */
+    border-bottom: none;
+    /* background-color: red; */
+    gap:0;
+
+}
+.sec-boxes{
+  gap:0;
+  background-color: #e3e6e6; /* Matches the gradient's bottom color */
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* z-index: 2; Appears above the gradient */
+  margin: 0;
+}
+
+.ffmain{
+  display: flex;
+  background-image: url(1st.jpg);
+  background-size: cover;
+  background-position: center;
+  height:340;
+  width: 290;
+  /* align-items: center; */
+  margin-left: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fname{
+  margin-left:20px ;
+  padding-top: 5px;
+  font-size: 13px;
+  text-align: left;
+  color:#007185
+}
+.fname:hover{
+  color:orange;
+}
+
+
+.ssmain{
+  display: flex;
+  background-image: url(2ndtoy.jpg);
+  background-size: cover;
+  background-position: center;
+  height:340;
+  width: 290;
+  /* align-items: center; */
+  margin-left: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+.tmain{
+  display: flex;
+  height:340;
+  width: 290;
+  /* align-items: center; */
+  margin-left: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+
+.ffb{
+  font-size: 10px;
+  background-image: url(dinning.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.fsb{
+  font-size: 10px;
+  background-image: url(home.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.ftb{
+  font-size: 10px;
+  background-image: url(kitchen.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.fffb{
+  font-size: 10px;
+  background-image: url(health\ and\ beauty.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.ffforth{
+  display: flex;
+  background-image: url(fridatsail.jpg);
+  background-size: cover;
+  background-position: center;
+  height:340;
+  width: 290;
+  /* align-items: center; */
+  margin-left: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fiimain{
+  display: flex;
+  background-image: url(makeup.jpg);
+  background-size: cover;
+  background-position: center;
+  height:340;
+  width: 290;
+  /* align-items: center; */
+  margin-left: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+
+.simain{
+  display: flex;
+  height:340;
+  width: 290;
+  /* align-items: center; */
+  margin-left: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+
+.fifb{
+  font-size: 10px;
+  background-image: url(kitchen.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.fisb{
+  font-size: 10px;
+  background-image: url(jaket.jpj.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.fitb{
+  font-size: 10px;
+  background-image: url(knits.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.fiffb{
+  font-size: 10px;
+  background-image: url(jewelry.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+
+.seemain{
+  display: flex;
+  background-image: url(game.jpg);
+  background-size: cover;
+  background-position: center;
+  height:340;
+  width: 290;
+  /* align-items: center; */
+  margin-left: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+.emain{
+  display: flex;
+  height:340;
+  width: 290;
+  /* align-items: center; */
+  margin-left: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+
+.fefb{
+  font-size: 10px;
+  background-image: url(furniyure.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.name{
+  font-size: 10px;
+  text-align: left;
+  margin-top: 3px;
+}
+.fesb{
+  font-size: 10px;
+  background-image: url(hardware.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+}
+.name a {
+  text-decoration: none;
+  color:skyblue;
+}
+.name a:hover{
+  color:orange;
+}
+.fetb{
+  font-size: 10px;
+  background-image: url(wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.feffb{
+  font-size: 10px;
+  background-image: url(basket.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: #007185;
+  height: 140px;
+  width: 120px;
+  
+}
+.head{
+  font-size: 10px;
+  display:inline;
+}
+.heading{
+  background-color: #0f1111;
+  height:20px;
+  width: 100%;
+  color: red;
+}
+.ffooter{
+  background-color: #37475a;
+  width: 100%;
+  height: 49px;
+  color: #f1ffff;
+  margin-top: 410px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+ 
+}
+.sfooter{
+  display: flex;
+  background-color: #232f3e;
+  height:380px;
+  width: 100%;
+  padding:10px;
+  justify-content: center;
+
+ 
+}
+.fbox{
+
+  width: 136px;
+  height: 291px;
+  display:block;
+  padding-top: 50px;
+  padding: 40px;
+  color: #CCCCCC;
+  font-size: larger;
+  text-align: left;
+  
+}
+.sbox{
+  width: 182px;
+  height: 291px;
+  display:block;
+  padding-top: 50px;
+  padding: 40px;
+  color: #CCCCCC;
+  font-size: larger;
+  text-align: left;
+}
+.tbox{
+  width: 240px;
+  height: 291px;
+  display:block;
+  padding-top: 50px;
+  padding: 40px;
+  color: #CCCCCC;
+  font-size: larger;
+  text-align: left;
+}
+.ffbox{
+  width: 156px;
+  height: 291px;
+  display:block;
+  padding-top: 50px;
+  padding: 40px;
+  color: #CCCCCC;
+  font-size: larger;
+  text-align: left;
+}
+
+.minibox a{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display:block;
+  font-size: medium;
+  text-align:left;
+}
+.tfooter{
+  border-top:solid #3a4553 0.1px;
+  background-color: #232f3e;
+  height:68px;
+  width: 100%;
+}
+.fffooter{
+  background-color: #131a22;
+  height:375px;
+  width: 100%;
+}
