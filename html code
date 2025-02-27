@@ -1,0 +1,248 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <body>
+      <header>
+        <div class="navbar">
+          <div class="navlogo border">
+            <div class="logo"></div>
+          </div>
+
+          <div class="nav-add border">
+            <p class="nav-first">Deliver to </p>
+            <div class="nav-icon">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="nav-sec">India</p>
+            </div>
+          </div>
+
+          <div class="nav-search">
+            <select class="search-select">
+              <option>All</option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <!-- <div class="lan">
+                      <div class="flag">-->
+          <div class="language-selector">
+            <div class="language-dropdown border">
+
+              <img src="flag.png" alt="English" class="flag-icon">
+              <span class="language-code">EN</span>
+            </div>
+          </div>
+          <div class="nav-fifth border">
+            <div class="fif-one ">Hello, sign in</div>
+            <div class="fif-sec">Accounnts & Lists</div>
+          </div>
+          <div class="nav-sixth border">
+            <div class="six-one ">Returns</div>
+            <div class="six-sec">& Orders</div>
+          </div>
+          <div class="cart border">
+            <div class="cartm">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p class="mcart">Cart</p>
+            </div>
+          </div>
+        </div>
+        <div class="snavbar">
+          <div class="secdiv"></div>
+        </div>
+        <div class="secnav ">
+          <div class="allm border">
+            <i class="fa-solid fa-bars"></i>
+            <div class="all">All</div>
+          </div>
+          <div class="anchor">
+            <div class="td  border">Today's Deals</div>
+            <div class="cs border">Customer service</div>
+            <div class="r border">Registry</div>
+            <div class="gc border">Gift Cards</div>
+            <div class="s border">Sell</div>
+          </div>
+
+        </div>
+        <div class="home">
+          <div class="pic">
+            <div class="mbanner">
+              <div class="banner">
+                You are on amazon.com. You can also shop on Amazon India for
+                millions of products with fast local delivery.
+                <a href="https://www.google.com" target="_blank"> Click here to go to
+                  amazon.in</a>
+              </div>
+            </div>
+
+            <div class="boxes">
+
+              <div class="fourthb"> Home décor under $50
+                <div class="fmain">
+                  <a href="https://www.amazon.com/s?k=Home+d%C3%A9cor+under+%2450&crid=3AH9C9SJPCIGX&sprefix=%2Caps%2C1509&ref=nb_sb_noss_1">
+                  <div class="ffmain"></div>
+                  <div class="fname">Shop Now</div>
+                </a>
+                </div>
+              </div>
+
+              <div class="fourthb">Toys under $25
+                <div class="smain">
+                  <a href="https://www.amazon.com/s?k=Toys+under+%2425&crid=2DIZCDRTZQ0YH&sprefix=toys+under+25%2Caps%2C875&ref=nb_sb_noss_1">
+                  <div class="ssmain"></div>
+                  <div class="fname">Shop Now</div></a>
+                </div>
+              </div>
+              <div class="thirdb">Refresh your space
+
+                <div class="tmain">
+                  <div class="ffbb">
+                    <a href="https://www.google.com" target="_blank">
+                    <div class="ffb"></div></a>
+                    <div class="name">Dinning</div>
+                  </div>
+                  <div class="fsbb">
+                    <div class="fsb"></div>
+                    <div class="name">Home</div>
+                  </div>
+                  <div class="ftbb">
+                    <div class="ftb"></div>
+                    <div class="name">Kitchen</div>
+                  </div>
+                  <div class="fffbb">
+                    <div class="fffb"></div>
+                    <div class="name">Health and Beauty</div>
+                  </div>
+                </div>
+              </div>
+              <div class="fourthb">Shop Black Friday deals
+                
+                <div class="fforthmain">
+                  <a href="https://www.amazon.com/gp/goldbox/?_encoding=UTF8&pd_rd_w=MwUni&content-id=amzn1.sym.761a767a-2c8a-472f-b5d0-e9015b0b75ec&pf_rd_p=761a767a-2c8a-472f-b5d0-e9015b0b75ec&pf_rd_r=77865W8BMY8J6MC4C6G1&pd_rd_wg=YN2VV&pd_rd_r=0f2fafcd-bfb5-4475-b58b-2cd3299df7a1&ref_=pd_hp_d_atf_unk&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522" target="blank">
+                  <div class="ffforth"></div> 
+                  <div class="fname">Shop Now</div>
+                </a>
+                </div>
+              </div>
+            
+            <div class="sec-boxes">
+              <div class="fourthb">Beauty steals under $25
+                <div class="fimain">
+                  <a href="https://www.amazon.com/s?k=makeup&_encoding=UTF8&content-id=amzn1.sym.cfffd636-af52-48ff-a5dc-4f273c40ec67&pd_rd_r=3e5c2b6d-822c-449a-a5fb-1bca6f4ea6cd&pd_rd_w=9skW2&pd_rd_wg=TAy3r&pf_rd_p=cfffd636-af52-48ff-a5dc-4f273c40ec67&pf_rd_r=48E5JEXRA3S17AJHSFR6&ref=pd_hp_d_btf_unk">
+                  <div class="fiimain"></div>
+                  <div class="fname">Shop Now</div></a>
+                </div>
+              </div>
+              <div class="fourthb">Top categories in Kitchen appliances
+                <div class="simain">
+                  <div class="fifbb">
+                    <div class="fifb"></div>
+                    <div class="name">Kitchen</div>
+                  </div>
+                  <div class="fisbb">
+                    <div class="fisb"></div>
+                    <div class="name">Jacket</div>
+                  </div>
+                  <div class="fitbb">
+                    <div class="fitb"></div>
+                    <div class="name"><a>Knits</a></div>
+                  </div>
+                  <div class="fiffbb">
+                    <div class="fiffb"></div>
+                    <div class="name">Makeup</div>
+                  </div>
+                </div></div>
+              <div class="fourthb">Get your game on
+                <div class="semain">
+                  <a href="https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.860dbf94-9f09-4ada-8615-32eb5ada253a&pd_rd_r=f5540367-835c-4a5c-8a48-c3ff6ecfa754&pd_rd_w=EGFkw&pd_rd_wg=NqxUs&pf_rd_p=860dbf94-9f09-4ada-8615-32eb5ada253a&pf_rd_r=48E5JEXRA3S17AJHSFR6&ref=pd_hp_d_atf_unk" target=" b">
+                  <div class="seemain"></div>
+                  <div class="fname">Shop Now</div>
+                  </a>
+                </div>
+              </div>
+              <div class="fourthb">Easy updates for elevated spaces
+                <div class="emain">
+                  <div class="fefbb">
+                    <div class="fefb"></div>
+                    <div class="name">Furniyure</div>
+                  </div>
+                  <div class="fesbb">
+                    <div class="fesb"></div>
+                    <div class="name"><a href="https://www.google.com" target="_blank">Hardware</a></div>
+                  </div>
+
+                  <div class="fetbb">
+                    <div class="fetb"></div>
+                    <div class="name">Wallpaper</div>
+                  </div>
+                  <div class="feffbb">
+                    <div class="feffb"></div>
+                    <div class="name">Basket</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+      <footer>
+        <div class="ffooter">
+          Back to Top </div>
+          <div class="sfooter"> 
+            <div class="fbox">Get to Know Us
+              <div class="minibox">
+                <a>Careers</a>
+                <a>Blog</a>
+                <a> About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+              </div>
+            </div>
+              <div class="sbox"> Make Money with Us
+                <div class="minibox">
+                  <a>Sell products on Amazon</a>
+                  <a>Sell on Amazon Business</a>
+                  <a>Sell apps on Amazon</a>
+                  <a>Become an Affiliate</a>
+                  <a>Advertise Your Products</a>
+                  <a>Self-Publish with Us</a>
+                  <a>Host an Amazon Hub</a>
+                </div>
+              </div>
+                <div class="tbox"> Amazon Payment Products
+                  <div class="minibox">
+                    <a>Amazon Business Card</a>
+                    <a>Shop with Points</a>
+                    <a> Reload Your Balance</a>
+                    <a>Amazon Currency Converter</a>
+                   
+                  </div>
+                </div>
+                  <div class="ffbox"> Let Us Help You
+                    <div class="minibox">
+                      <a>Amazon and COVID-19</a>
+                      <a>Your Account</a>
+                      <a> Your Orders</a>
+                      <a>Shipping Rates & Policies</a>
+                      <a>Returns & Replacements</a>
+                      <a>Manage Your Content and Devices</a>
+                      <a>Help</a>
+                    </div>
+                  </div> 
+          </div>
+          <div class="tfooter"></div>
+          <div class="fffooter"></div>
+
+      </footer>
+    </body>
+  </head>
+</html>
