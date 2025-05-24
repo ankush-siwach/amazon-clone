@@ -1,5 +1,5 @@
-# amazon-clone
-this is a amazon clone
+# Amazon-clone
+
 ![Project Screenshot](AmazonClone.png)
 
 
